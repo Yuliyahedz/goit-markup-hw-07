@@ -25,6 +25,12 @@ img {
   display: block;
 }
 
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -35,12 +41,6 @@ img {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
-}
-
-.container {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 .main-logo {
